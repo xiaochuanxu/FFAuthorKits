@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFAthorKits_Example' do
+  pod 'FFAthorKits', :path => '../'
+
+  target 'FFAthorKits_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
