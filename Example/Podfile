@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFAuthorKits_Example' do
+  pod 'FFAuthorKits', :path => '../'
+
+  target 'FFAuthorKits_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
