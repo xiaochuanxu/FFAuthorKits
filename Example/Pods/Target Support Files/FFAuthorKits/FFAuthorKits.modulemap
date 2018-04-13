@@ -1,0 +1,6 @@
+framework module FFAuthorKits {
+  umbrella header "FFAuthorKits-umbrella.h"
+
+  export *
+  module * { export * }
+}
