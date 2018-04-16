@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FFAuthorKits'
-  s.version          = '1.2'
+  s.version          = '1.3'
   s.summary          = 'A short description of FFAuthorKits.'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking'
   s.dependency 'Masonry'
   s.dependency 'FFAPIs'
   s.dependency 'FFCategoryKit'

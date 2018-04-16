@@ -21,7 +21,7 @@
   "source_files": "FFAuthorKits/Classes/**/*",
   "dependencies": {
     "AFNetworking": [
-      "~> 2.3"
+
     ],
     "Masonry": [
 
